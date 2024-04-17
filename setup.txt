@@ -1,5 +1,5 @@
 1. máy có java và android 
 2. cmd từ folder tool_test_game
 3. adb forward tcp:8342 tcp:8342 (cmd từ thư mục android)
-4. java -jar keyworddriven.monkey.game-2.0-SNAPSHOT-fat-tests
+4. java -jar keyworddriven.monkey.game-2.0-SNAPSHOT-fat-tests.jar
 5. Check port http://localhost:8342/q/about

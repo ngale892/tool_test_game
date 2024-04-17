@@ -1,12 +1,14 @@
 SCOPE_PATH: D:\\tool_test_game\\config\\Scope.xlsx
 FLOW: Data
+Reset pass number
+Reset fail number
 Total scope : 2
 returnSizeTestSuit with total(1)
 Run only test suit
 iFirstTestSuit: 1
 iLastTestSuit: 1
 runOneTime 0
-Run data from 1 to 4
+Run data from 1 to 3
 levelFolder: D:\tool_test_game\config\report\//All Level
 Folder path report course: D:\tool_test_game\config\report\//All Level
 Folder path report level: D:\tool_test_game\config\report\//All Level
@@ -20,26 +22,26 @@ TCID: TC1
 TC1 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định thao tác chọn topic
+X�c ??nh thao t�c ch?n topic
 Params: TestCase,2,3
 Data: 1
-TS1:  Xác định thao tác chọn topic
+TS1:  X�c ??nh thao t�c ch?n topic
 type: void
 TCID: TC2
 TC2 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic biến mất
+??i mic bi?n m?t
 Params: MicroGameAI,300
 Data: 
-TS1:  Đợi mic biến mất
+TS1:  ??i mic bi?n m?t
 type: void
 request: http://localhost:8342/q/scene//MicroGameAI
 Process TS: Y
-Đợi list topic xuất hiện
+??i list topic xu?t hi?n
 Params: Item(Clone),300
 Data: 
-TS2:  Đợi list topic xuất hiện
+TS2:  ??i list topic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Item(Clone)
 |convert 2 param |: true
@@ -61,10 +63,10 @@ request: http://localhost:8342/q/scene//Item(Clone)
 waitForObject :Item(Clone)
 request: http://localhost:8342/q/scene//Item(Clone)[0].Button.onClick()
 Process TS: Y
-Đợi intro xuất hiện
+??i intro xu?t hi?n
 Params: Canvas - Intro,300
 Data: 
-TS4:  Đợi intro xuất hiện
+TS4:  ??i intro xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Canvas - Intro
 |convert 2 param |: true
@@ -76,10 +78,10 @@ TCID: TC3
 TC3 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi nút phone xuất hiện
+??i n�t phone xu?t hi?n
 Params: Telephone,500
 Data: 
-TS1:  Đợi nút phone xuất hiện
+TS1:  ??i n�t phone xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Telephone
 |convert 2 param |: true
@@ -88,10 +90,10 @@ request: http://localhost:8342/q/scene//Telephone
 |convert 2 param |: Telephone
 waitForObject :Telephone
 Process TS: Y
-Click nút phone
+Click n�t phone
 Params: Telephone,Button,onClick()
 Data: 
-TS2:  Click nút phone
+TS2:  Click n�t phone
 type: void
 request: http://localhost:8342/q/scene//Telephone
 |convert 2 param |: true
@@ -104,10 +106,10 @@ TCID: TC4
 TC4 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: true
@@ -115,31 +117,20 @@ request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: Mic-Normal
 |convert 2 param |: Mic-Normal
 waitForObject :Mic-Normal
+Process TS: N
 Process TS: Y
-Đợi text câu hỏi xuất hiện
-Params: QuestionHolderMKText/TxtQuestion,300
-Data: 
-TS2:  Đợi text câu hỏi xuất hiện
-type: void
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: TxtQuestion
-|convert 2 param |: TxtQuestion
-waitForObject :QuestionHolderMKText/TxtQuestion
-Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 1_1.mp4
-TS3:  Xác định gameobject chứa video
+TS3:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
 Process TS: Y
-Kiểm tra video câu hỏi
+Ki?m tra video c�u h?i
 Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
 Data: 
-TS4:  Check - Kiểm tra video câu hỏi
+TS5:  Check - Ki?m tra video c�u h?i
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: true
@@ -148,19 +139,19 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: VideoPlayer (1)
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
 1_1.mp4
-Check - Kiểm tra video câu hỏi
+Check - Ki?m tra video c�u h?i
 Process TS: Y
-Kiểm tra text câu hỏi
+Ki?m tra text c�u h?i
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Đợi mic start ghi âm
+??i mic start ghi �m
 Params: Mic-Working,20
 Data: 
-TS6:  Đợi mic start ghi âm
+TS6:  ??i mic start ghi �m
 type: void
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: false
@@ -256,10 +247,10 @@ TCID: TC5
 TC5 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Kiểm tra ô nhập đáp án xuất hiện
+Ki?m tra � nh?p ?�p �n xu?t hi?n
 Params: InputDebugUserAnswer
 Data: 
-TS1:  Kiểm tra ô nhập đáp án xuất hiện
+TS1:  Ki?m tra � nh?p ?�p �n xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: true
@@ -268,17 +259,17 @@ request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: InputDebugUserAnswer
 waitForObject :InputDebugUserAnswer
 Process TS: Y
-Nhập đáp án
+Nh?p ?�p �n
 Params: InputDebugUserAnswer,TMP_InputField
 Data: My name's Nga
-TS2:  Nhập đáp án
+TS2:  Nh?p ?�p �n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text=My name's Nga
 Process TS: Y
-Click ghi âm
+Click ghi �m
 Params: Mic-Working,Button,onClick()
 Data: 
-TS3:  Click ghi âm
+TS3:  Click ghi �m
 type: void
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: true
@@ -291,14 +282,11 @@ TCID: TC6
 TC6 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: false
-|convert 2 param |: false
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: false
 |convert 2 param |: false
@@ -311,18 +299,19 @@ waitForObject :Mic-Normal
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 1_2.mp4
-TS2:  Xác định gameobject chứa video
+TS2:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
+Process TS: N
 Process TS: Y
-Kiểm tra phản ứng giáo viên_video
+Ki?m tra ph?n ?ng gi�o vi�n_video
 Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
 Data: 
-TS3:  Check - Kiểm tra phản ứng giáo viên_video
+TS4:  Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: true
@@ -331,20 +320,20 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: VideoPlayer (1)
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
 1_2.mp4
-Check - Kiểm tra phản ứng giáo viên_video
+Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 Process TS: Y
-Kiểm tra phản ứng giáo viên_text
+Ki?m tra ph?n ?ng gi�o vi�n_text
 TCID: TC7
 TC7 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định có thu âm lần 2
-Params: video2,TestCase,8,9
+X�c ??nh c� thu �m l?n 2
+Params: video_teacher2,TestCase,8,9
 Data: 
-TS1:  Xác định có thu âm lần 2
+TS1:  X�c ??nh c� thu �m l?n 2
 type: void
 TCID: TC8
 TC8 - Run mode in TC: N
@@ -360,10 +349,10 @@ TCID: TC1
 TC1 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định thao tác chọn topic
+X�c ??nh thao t�c ch?n topic
 Params: TestCase,2,3
 Data: 2
-TS1:  Xác định thao tác chọn topic
+TS1:  X�c ??nh thao t�c ch?n topic
 type: void
 TCID: TC2
 TC2 - Run mode in TC: N
@@ -373,10 +362,10 @@ TCID: TC4
 TC4 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: true
@@ -384,47 +373,21 @@ request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: Mic-Normal
 |convert 2 param |: Mic-Normal
 waitForObject :Mic-Normal
+Process TS: N
 Process TS: Y
-Đợi text câu hỏi xuất hiện
-Params: QuestionHolderMKText/TxtQuestion,300
-Data: 
-TS2:  Đợi text câu hỏi xuất hiện
-type: void
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: TxtQuestion
-|convert 2 param |: TxtQuestion
-waitForObject :QuestionHolderMKText/TxtQuestion
-Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 2_1.mp4
-TS3:  Xác định gameobject chứa video
+TS3:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer.VideoPlayer
 Process TS: Y
-Kiểm tra video câu hỏi
+Ki?m tra video c�u h?i
 Params: MSPPD01AIDialog(Clone)/VideoPlayer,/,mp4
 Data: 
-TS4:  Check - Kiểm tra video câu hỏi
+TS5:  Check - Ki?m tra video c�u h?i
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer
 |convert 2 param |: true
@@ -433,20 +396,32 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer
 |convert 2 param |: VideoPlayer
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer.VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_1.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_1.mp4
 2_1.mp4
-Check - Kiểm tra video câu hỏi
+Check - Ki?m tra video c�u h?i
 Process TS: Y
-Kiểm tra text câu hỏi
+Ki?m tra text c�u h?i
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Đợi mic start ghi âm
+??i mic start ghi �m
 Params: Mic-Working,20
 Data: 
-TS6:  Đợi mic start ghi âm
+TS6:  ??i mic start ghi �m
 type: void
+request: http://localhost:8342/q/scene//Mic-Working
+|convert 2 param |: false
+|convert 2 param |: false
+request: http://localhost:8342/q/scene//Mic-Working
+|convert 2 param |: false
+|convert 2 param |: false
+request: http://localhost:8342/q/scene//Mic-Working
+|convert 2 param |: false
+|convert 2 param |: false
+request: http://localhost:8342/q/scene//Mic-Working
+|convert 2 param |: false
+|convert 2 param |: false
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: false
 |convert 2 param |: false
@@ -466,10 +441,10 @@ TCID: TC5
 TC5 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Kiểm tra ô nhập đáp án xuất hiện
+Ki?m tra � nh?p ?�p �n xu?t hi?n
 Params: InputDebugUserAnswer
 Data: 
-TS1:  Kiểm tra ô nhập đáp án xuất hiện
+TS1:  Ki?m tra � nh?p ?�p �n xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: true
@@ -478,17 +453,17 @@ request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: InputDebugUserAnswer
 waitForObject :InputDebugUserAnswer
 Process TS: Y
-Nhập đáp án
+Nh?p ?�p �n
 Params: InputDebugUserAnswer,TMP_InputField
 Data: I'm 20
-TS2:  Nhập đáp án
+TS2:  Nh?p ?�p �n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text=I'm 20
 Process TS: Y
-Click ghi âm
+Click ghi �m
 Params: Mic-Working,Button,onClick()
 Data: 
-TS3:  Click ghi âm
+TS3:  Click ghi �m
 type: void
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: true
@@ -501,10 +476,10 @@ TCID: TC6
 TC6 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: true
@@ -515,18 +490,19 @@ waitForObject :Mic-Normal
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 2_2.mp4
-TS2:  Xác định gameobject chứa video
+TS2:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
+Process TS: N
 Process TS: Y
-Kiểm tra phản ứng giáo viên_video
+Ki?m tra ph?n ?ng gi�o vi�n_video
 Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
 Data: 
-TS3:  Check - Kiểm tra phản ứng giáo viên_video
+TS4:  Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: true
@@ -535,20 +511,20 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: VideoPlayer (1)
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_2.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/2_2.mp4
 2_2.mp4
-Check - Kiểm tra phản ứng giáo viên_video
+Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 Process TS: Y
-Kiểm tra phản ứng giáo viên_text
+Ki?m tra ph?n ?ng gi�o vi�n_text
 TCID: TC7
 TC7 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định có thu âm lần 2
-Params: video2,TestCase,8,9
+X�c ??nh c� thu �m l?n 2
+Params: video_teacher2,TestCase,8,9
 Data: 
-TS1:  Xác định có thu âm lần 2
+TS1:  X�c ??nh c� thu �m l?n 2
 type: void
 TCID: TC8
 TC8 - Run mode in TC: N
@@ -564,10 +540,10 @@ TCID: TC1
 TC1 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định thao tác chọn topic
+X�c ??nh thao t�c ch?n topic
 Params: TestCase,2,3
 Data: 3
-TS1:  Xác định thao tác chọn topic
+TS1:  X�c ??nh thao t�c ch?n topic
 type: void
 TCID: TC2
 TC2 - Run mode in TC: N
@@ -577,10 +553,10 @@ TCID: TC4
 TC4 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: true
@@ -588,32 +564,21 @@ request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: Mic-Normal
 |convert 2 param |: Mic-Normal
 waitForObject :Mic-Normal
+Process TS: N
 Process TS: Y
-Đợi text câu hỏi xuất hiện
-Params: QuestionHolderMKText/TxtQuestion,300
-Data: 
-TS2:  Đợi text câu hỏi xuất hiện
-type: void
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: TxtQuestion
-|convert 2 param |: TxtQuestion
-waitForObject :QuestionHolderMKText/TxtQuestion
-Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 3_1.mp4
-TS3:  Xác định gameobject chứa video
+TS3:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer.VideoPlayer
 Process TS: Y
-Kiểm tra video câu hỏi
+Ki?m tra video c�u h?i
 Params: MSPPD01AIDialog(Clone)/VideoPlayer,/,mp4
 Data: 
-TS4:  Check - Kiểm tra video câu hỏi
+TS5:  Check - Ki?m tra video c�u h?i
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer
 |convert 2 param |: true
@@ -622,23 +587,20 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer
 |convert 2 param |: VideoPlayer
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer.VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_1.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_1.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_1.mp4
 3_1.mp4
-Check - Kiểm tra video câu hỏi
+Check - Ki?m tra video c�u h?i
 Process TS: Y
-Kiểm tra text câu hỏi
+Ki?m tra text c�u h?i
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Đợi mic start ghi âm
+??i mic start ghi �m
 Params: Mic-Working,20
 Data: 
-TS6:  Đợi mic start ghi âm
+TS6:  ??i mic start ghi �m
 type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: false
 |convert 2 param |: false
@@ -670,10 +632,10 @@ TCID: TC5
 TC5 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Kiểm tra ô nhập đáp án xuất hiện
+Ki?m tra � nh?p ?�p �n xu?t hi?n
 Params: InputDebugUserAnswer
 Data: 
-TS1:  Kiểm tra ô nhập đáp án xuất hiện
+TS1:  Ki?m tra � nh?p ?�p �n xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: true
@@ -682,17 +644,17 @@ request: http://localhost:8342/q/scene//InputDebugUserAnswer
 |convert 2 param |: InputDebugUserAnswer
 waitForObject :InputDebugUserAnswer
 Process TS: Y
-Nhập đáp án
+Nh?p ?�p �n
 Params: InputDebugUserAnswer,TMP_InputField
 Data: I feel sad
-TS2:  Nhập đáp án
+TS2:  Nh?p ?�p �n
 type: void
 request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text=I feel sad
 Process TS: Y
-Click ghi âm
+Click ghi �m
 Params: Mic-Working,Button,onClick()
 Data: 
-TS3:  Click ghi âm
+TS3:  Click ghi �m
 type: void
 request: http://localhost:8342/q/scene//Mic-Working
 |convert 2 param |: true
@@ -705,10 +667,10 @@ TCID: TC6
 TC6 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Đợi mic xuất hiện
+??i mic xu?t hi?n
 Params: Mic-Normal,300
 Data: 
-TS1:  Đợi mic xuất hiện
+TS1:  ??i mic xu?t hi?n
 type: void
 request: http://localhost:8342/q/scene//Mic-Normal
 |convert 2 param |: true
@@ -719,18 +681,19 @@ waitForObject :Mic-Normal
 Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
 Data: 
 Process TS: Y
-Xác định gameobject chứa video
+X�c ??nh gameobject ch?a video
 Params: VideoPlayer*,VideoPlayer,url
 Data: 3_2.mp4
-TS2:  Xác định gameobject chứa video
+TS2:  X�c ??nh gameobject ch?a video
 type: void
 request: http://localhost:8342/q/scene//VideoPlayer*
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
+Process TS: N
 Process TS: Y
-Kiểm tra phản ứng giáo viên_video
+Ki?m tra ph?n ?ng gi�o vi�n_video
 Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
 Data: 
-TS3:  Check - Kiểm tra phản ứng giáo viên_video
+TS4:  Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 type: class java.lang.String
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: true
@@ -739,484 +702,20 @@ request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
 |convert 2 param |: VideoPlayer (1)
 waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
 request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_2.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_2.mp4
+|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/3_2.mp4
 3_2.mp4
-Check - Kiểm tra phản ứng giáo viên_video
+Check - Ki?m tra ph?n ?ng gi�o vi�n_video
 Process TS: Y
-Kiểm tra phản ứng giáo viên_text
+Ki?m tra ph?n ?ng gi�o vi�n_text
 TCID: TC7
 TC7 - Run mode in TC: Y
 result: PASS
 Process TS: Y
-Xác định có thu âm lần 2
-Params: video2,TestCase,8,9
+X�c ??nh c� thu �m l?n 2
+Params: video_teacher2,TestCase,8,9
 Data: 
-TS1:  Xác định có thu âm lần 2
-type: void
-TCID: TC8
-TC8 - Run mode in TC: N
-TCID: TC9
-TC9 - Run mode in TC: N
-D:\\tool_test_game\\config\\data\\LA_Greetings 1_U1_Hello.json
-execute_suites
-Mode in scope: Y
-TCS name: Report_VideoCall
-Path report TC current: D:\tool_test_game\config\report\//All Level\Report_VideoCall_LA_Greetings 1_U1_Hello1_4.xlsx
-Total TC: 10
-TCID: TC1
-TC1 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Xác định thao tác chọn topic
-Params: TestCase,2,3
-Data: 1
-TS1:  Xác định thao tác chọn topic
-type: void
-TCID: TC2
-TC2 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Đợi mic biến mất
-Params: MicroGameAI,300
-Data: 
-TS1:  Đợi mic biến mất
-type: void
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: MicroGameAI
-|convert 2 param |: true
-|convert 2 param |: true
-request: http://localhost:8342/q/scene//MicroGameAI
-Process TS: Y
-Đợi list topic xuất hiện
-Params: Item(Clone),300
-Data: 
-TS2:  Đợi list topic xuất hiện
-type: void
-request: http://localhost:8342/q/scene//Item(Clone)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Item(Clone)
-|convert 2 param |: Item(Clone)
-waitForObject :Item(Clone)
-Process TS: Y
-Click topic
-Params: Item(Clone),Button,onClick()
-Data: 0
-TS3:  Click topic
-type: void
-request: http://localhost:8342/q/scene//Item(Clone)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Item(Clone)
-|convert 2 param |: Item(Clone)
-waitForObject :Item(Clone)
-request: http://localhost:8342/q/scene//Item(Clone)[0].Button.onClick()
-Process TS: Y
-Đợi intro xuất hiện
-Params: Canvas - Intro,300
-Data: 
-TS4:  Đợi intro xuất hiện
-type: void
-request: http://localhost:8342/q/scene//Canvas - Intro
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Canvas - Intro
-|convert 2 param |: Canvas - Intro
-waitForObject :Canvas - Intro
-TCID: TC3
-TC3 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Đợi nút phone xuất hiện
-Params: Telephone,500
-Data: 
-TS1:  Đợi nút phone xuất hiện
-type: void
-request: http://localhost:8342/q/scene//Telephone
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Telephone
-|convert 2 param |: Telephone
-waitForObject :Telephone
-Process TS: Y
-Click nút phone
-Params: Telephone,Button,onClick()
-Data: 
-TS2:  Click nút phone
-type: void
-request: http://localhost:8342/q/scene//Telephone
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Telephone
-|convert 2 param |: Telephone
-waitForObject :Telephone
-request: http://localhost:8342/q/scene//Telephone.Button.onClick()
-TCID: TC4
-TC4 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Đợi mic xuất hiện
-Params: Mic-Normal,300
-Data: 
-TS1:  Đợi mic xuất hiện
-type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Normal
-|convert 2 param |: Mic-Normal
-waitForObject :Mic-Normal
-Process TS: Y
-Đợi text câu hỏi xuất hiện
-Params: QuestionHolderMKText/TxtQuestion,300
-Data: 
-TS2:  Đợi text câu hỏi xuất hiện
-type: void
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: TxtQuestion
-|convert 2 param |: TxtQuestion
-waitForObject :QuestionHolderMKText/TxtQuestion
-Process TS: Y
-Xác định gameobject chứa video
-Params: VideoPlayer*,VideoPlayer,url
-Data: 1_1.mp4
-TS3:  Xác định gameobject chứa video
-type: void
-request: http://localhost:8342/q/scene//VideoPlayer*
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-Process TS: Y
-Kiểm tra video câu hỏi
-Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
-Data: 
-TS4:  Check - Kiểm tra video câu hỏi
-type: class java.lang.String
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: VideoPlayer (1)
-|convert 2 param |: VideoPlayer (1)
-waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_1.mp4
-1_1.mp4
-Check - Kiểm tra video câu hỏi
-Process TS: Y
-Kiểm tra text câu hỏi
-Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
-Data: 
-Process TS: Y
-Đợi mic start ghi âm
-Params: Mic-Working,20
-Data: 
-TS6:  Đợi mic start ghi âm
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-TCID: TC5
-TC5 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Kiểm tra ô nhập đáp án xuất hiện
-Params: InputDebugUserAnswer
-Data: 
-TS1:  Kiểm tra ô nhập đáp án xuất hiện
-type: void
-request: http://localhost:8342/q/scene//InputDebugUserAnswer
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: InputDebugUserAnswer
-|convert 2 param |: InputDebugUserAnswer
-waitForObject :InputDebugUserAnswer
-Process TS: Y
-Nhập đáp án
-Params: InputDebugUserAnswer,TMP_InputField
-Data:  I'm Nga
-TS2:  Nhập đáp án
-type: void
-request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text= I'm Nga
-Process TS: Y
-Click ghi âm
-Params: Mic-Working,Button,onClick()
-Data: 
-TS3:  Click ghi âm
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-request: http://localhost:8342/q/scene//Mic-Working.Button.onClick()
-TCID: TC6
-TC6 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Đợi mic xuất hiện
-Params: Mic-Normal,300
-Data: 
-TS1:  Đợi mic xuất hiện
-type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Normal
-|convert 2 param |: Mic-Normal
-waitForObject :Mic-Normal
-Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI
-Data: 
-Process TS: Y
-Xác định gameobject chứa video
-Params: VideoPlayer*,VideoPlayer,url
-Data: 1_2.mp4
-TS2:  Xác định gameobject chứa video
-type: void
-request: http://localhost:8342/q/scene//VideoPlayer*
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-Process TS: Y
-Kiểm tra phản ứng giáo viên_video
-Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
-Data: 
-TS3:  Check - Kiểm tra phản ứng giáo viên_video
-type: class java.lang.String
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: VideoPlayer (1)
-|convert 2 param |: VideoPlayer (1)
-waitForObject :MSPPD01AIDialog(Clone)/VideoPlayer (1)
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
-|convert 2 param |: C:/Users/dotua/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello/1_2.mp4
-1_2.mp4
-Check - Kiểm tra phản ứng giáo viên_video
-Process TS: Y
-Kiểm tra phản ứng giáo viên_text
-TCID: TC7
-TC7 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Xác định có thu âm lần 2
-Params: video2,TestCase,8,9
-Data: 
-TS1:  Xác định có thu âm lần 2
+TS1:  X�c ??nh c� thu �m l?n 2
 type: void
 TCID: TC8
 TC8 - Run mode in TC: N
