@@ -1,0 +1,1 @@
+java -jar keyworddriven.monkey.game-2.0-SNAPSHOT-fat-tests.jar
