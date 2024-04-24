@@ -1,7 +1,7 @@
 {
   "scope_path": "\\tool_test_game\\config\\Scope.xlsx",
   "testcase_path": "\\tool_test_game\\config\\testcases\\",
-  "data_file_path":"\\tool_test_game\\config\\data\\U1_Who is that_LB_U2_Its next to the.json",
+  "data_file_path":"\\tool_test_game\\config\\data\\LC_Food 1_U1_Do you want some soup.json",
   "file_name_report_data_flow": "",
   "variable_file_path": "\\tool_test_game\\config\\data\\variable.json",
   "list_fail_file_path":"\\tool_test_game\\config\\report\\list_fail.json"
