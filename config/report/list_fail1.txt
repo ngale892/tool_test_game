@@ -1,0 +1,6 @@
+
+Its my grandpa leson 4: Report_BE.PD01Dialogue(Clone)_Lesson 4_29 thiếu audio
+Shes eating soup_lesson2: Report_Chunking1Speaking(Clone)_Lesson 2_22 ===>FAIL resource
+Shes eating soup_lesson3:Report_BrickLayer.BE.RS01(Clone)_Lesson 3_24,Report_MC.RS01DienThe(Clone)_Lesson 3_24, Report_MSP.ChW(Clone)_Lesson 3_24
+Where are you from_ Lesson 3: Report_BrickLayer.BE.RS01(Clone)_Lesson 3_9 ==> data gen thiếu ảnh index 23 wỏd_id 40061368
+Who is that_Lesson 3: Report_BrickLayer.BE.RS01(Clone)_Lesson 3_19,Report_MSP.ChW(Clone)_Lesson 3_19

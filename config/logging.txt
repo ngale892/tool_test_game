@@ -1,528 +1,176 @@
-SCOPE_PATH: D:\\tool_test_game\\config\\Scope.xlsx
-FLOW: Data
-Reset pass number
-Reset fail number
-Total scope : 2
-returnSizeTestSuit with total(1)
-Run only test suit
-iFirstTestSuit: 1
-iLastTestSuit: 1
-runOneTime 0
-Run data from 31 to 31
-levelFolder: D:\tool_test_game\config\report\//All Level
-Folder path report course: D:\tool_test_game\config\report\//All Level
-Folder path report level: D:\tool_test_game\config\report\//All Level
-D:\\tool_test_game\\config\\data\\LA_Greetings 1_U1_Hello.json
-execute_suites
-Mode in scope: Y
-TCS name: Report_VideoCall
-Path report TC current: D:\tool_test_game\config\report\//All Level\Report_VideoCall_LA_Greetings 1_U1_Hello1_31.xlsx
-Total TC: 11
-TCID: TC1
-TC1 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-X�c ??nh thao t�c ch?n topic
-Params: TestCase,3,5,2
-Data: 1
-TS1:  X�c ??nh thao t�c ch?n topic
-type: void
-Data set actual: 
-TCID: TC1_1
-TC1_1 - Run mode in TC: N
-TCID: TC2
-TC2 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i mic bi?n m?t
-Params: MicroGameAI,300
-Data: 
-TS1:  ??i mic bi?n m?t
-type: void
-request: http://localhost:8342/q/scene//MicroGameAI
-Data set actual: 
-Process TS: Y
-??i list topic xu?t hi?n
-Params: Item(Clone),300
-Data: 
-TS2:  ??i list topic xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Item(Clone)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Item(Clone)
-|convert 2 param |: Item(Clone)
-waitForObject :Item(Clone)
-Data set actual: 
-Process TS: Y
-Click topic
-Params: Item(Clone),Button,onClick()
-Data: 0
-TS3:  Click topic
-type: void
-request: http://localhost:8342/q/scene//Item(Clone)
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Item(Clone)
-|convert 2 param |: Item(Clone)
-waitForObject :Item(Clone)
-request: http://localhost:8342/q/scene//Item(Clone)[0].Button.onClick()
-Data set actual: 
-Process TS: Y
-??i intro xu?t hi?n
-Params: Canvas - Intro,300
-Data: 
-TS4:  ??i intro xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Canvas - Intro
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Canvas - Intro
-|convert 2 param |: Canvas - Intro
-waitForObject :Canvas - Intro
-Data set actual: 
-TCID: TC3
-TC3 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i n�t phone xu?t hi?n
-Params: Telephone,500
-Data: 
-TS1:  ??i n�t phone xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Telephone
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Telephone
-|convert 2 param |: Telephone
-waitForObject :Telephone
-Data set actual: 
-Process TS: Y
-Click n�t phone
-Params: Telephone,Button,onClick()
-Data: 
-TS2:  Click n�t phone
-type: void
-request: http://localhost:8342/q/scene//Telephone
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Telephone
-|convert 2 param |: Telephone
-waitForObject :Telephone
-request: http://localhost:8342/q/scene//Telephone.Button.onClick()
-Data set actual: 
-Process TS: Y
-??i mic xu?t hi?n
-Params: Mic-Normal,30
-Data: 
-TS3:  ??i mic xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Normal
-|convert 2 param |: Mic-Normal
-waitForObject :Mic-Normal
-Data set actual: 
-TCID: TC4
-TC4 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i c�u h?i xu?t hi?n
-Params: QuestionHolderMKText/TxtQuestion
-Data: 
-TS3:  ??i c�u h?i xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion
-|convert 2 param |: false
-|convert 2 param |: false
-|convert 2 param |: TxtQuestion
-|convert 2 param |: TxtQuestion
-waitForObject :QuestionHolderMKText/TxtQuestion
-Data set actual: 
-Process TS: Y
-X�c ??nh gameobject ch?a video
-Params: VideoPlayer*,VideoPlayer,url
-Data: 1_1.mp4
-TS2:  X�c ??nh gameobject ch?a video
-type: void
-request: http://localhost:8342/q/scene//VideoPlayer*
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-Data set actual: 
-Process TS: Y
-Ki?m tra video c�u h?i
-Data set actual: 
-Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
-Data: 
-TS5:  Check - Ki?m tra video c�u h?i
-type: class java.lang.String
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_1.mp4
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_1.mp4
-1_1.mp4
-Check - Ki?m tra video c�u h?i
-Process TS: Y
-Ki?m tra text c�u h?i
-Data set actual: What's your name?
-Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI,Mic-Working,What's your name?
-Data: 
-TS4:  Check - Ki?m tra text c�u h?i
-type: class java.lang.String
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: What's your name?
-|convert 2 param |: What's your name?
-Check - Ki?m tra text c�u h?i
-Process TS: Y
-??i mic start ghi �m
-Params: Mic-Working,10
-Data: 
-TS6:  ??i mic start ghi �m
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-Data set actual: 
-TCID: TC5
-TC5 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-Ki?m tra � nh?p ?�p �n xu?t hi?n
-Params: InputDebugUserAnswer,2
-Data: 
-TS1:  Ki?m tra � nh?p ?�p �n xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//InputDebugUserAnswer
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: InputDebugUserAnswer
-|convert 2 param |: InputDebugUserAnswer
-waitForObject :InputDebugUserAnswer
-Data set actual: 
-Process TS: Y
-Nh?p ?�p �n
-Params: InputDebugUserAnswer,TMP_InputField
-Data: Sad
-TS2:  Nh?p ?�p �n
-type: void
-sendKey Sad
-request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text=Sad
-Data set actual: 
-Process TS: Y
-Click ghi �m
-Params: Mic-Working,Button,onClick()
-Data: 
-TS3:  Click ghi �m
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-request: http://localhost:8342/q/scene//Mic-Working.Button.onClick()
-Data set actual: 
-TCID: TC6
-TC6 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i mic xu?t hi?n
-Params: Mic-Normal,45
-Data: 
-TS1:  ??i mic xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Normal
-|convert 2 param |: Mic-Normal
-waitForObject :Mic-Normal
-Data set actual: 
-Process TS: Y
-X�c ??nh gameobject ch?a video
-Params: VideoPlayer*,VideoPlayer,url
-Data: 1_7.mp4
-TS3:  X�c ??nh gameobject ch?a video
-type: void
-request: http://localhost:8342/q/scene//VideoPlayer*
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-Data set actual: 
-Process TS: Y
-Ki?m tra ph?n ?ng gi�o vi�n_text
-Data set actual: My name is Miranda! Your name is ...
-Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI,15,My name is Miranda! Your name is ...
-Data: 
-TS5:  Check - Ki?m tra ph?n ?ng gi�o vi�n_text
-type: class java.lang.String
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: My name is Miranda!
-|convert 2 param |: My name is Miranda!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: Your name is ...
-|convert 2 param |: Your name is ...
-Check - Ki?m tra ph?n ?ng gi�o vi�n_text
-Process TS: Y
-Ki?m tra ph?n ?ng gi�o vi�n_video
-Data set actual: 
-Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
-Data: 
-TS4:  Check - Ki?m tra ph?n ?ng gi�o vi�n_video
-type: class java.lang.String
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_7.mp4
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_7.mp4
-1_7.mp4
-Check - Ki?m tra ph?n ?ng gi�o vi�n_video
-TCID: TC7
-TC7 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-X�c ??nh c� thu �m l?n 2
-Params: video_teacher2,TestCase,9,10
-Data: 
-TS1:  X�c ??nh c� thu �m l?n 2
-type: void
-Data set actual: 
-TCID: TC8
-TC8 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i mic start ghi �m 
-Params: Mic-Working,10
-Data: 
-TS1:  ??i mic start ghi �m 
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-Data set actual: 
-Process TS: Y
-Ki?m tra � nh?p ?�p �n xu?t hi?n
-Params: InputDebugUserAnswer,2
-Data: 
-TS2:  Ki?m tra � nh?p ?�p �n xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//InputDebugUserAnswer
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: InputDebugUserAnswer
-|convert 2 param |: InputDebugUserAnswer
-waitForObject :InputDebugUserAnswer
-Data set actual: 
-Process TS: Y
-Nh?p ?�p �n
-Params: InputDebugUserAnswer,TMP_InputField
-Data: I don't know.
-TS3:  Nh?p ?�p �n
-type: void
-sendKey I don't know.
-request: http://localhost:8342/q/scene//InputDebugUserAnswer.TMP_InputField.text=I don't know.
-Data set actual: 
-Process TS: Y
-Click ghi �m
-Params: Mic-Working,Button,onClick()
-Data: 
-TS4:  Click ghi �m
-type: void
-request: http://localhost:8342/q/scene//Mic-Working
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Working
-|convert 2 param |: Mic-Working
-waitForObject :Mic-Working
-request: http://localhost:8342/q/scene//Mic-Working.Button.onClick()
-Data set actual: 
-TCID: TC9
-TC9 - Run mode in TC: Y
-result: PASS
-Process TS: Y
-??i mic xu?t hi?n
-Params: Mic-Normal,45
-Data: 
-TS1:  ??i mic xu?t hi?n
-type: void
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: false
-|convert 2 param |: false
-request: http://localhost:8342/q/scene//Mic-Normal
-|convert 2 param |: true
-|convert 2 param |: true
-|convert 2 param |: Mic-Normal
-|convert 2 param |: Mic-Normal
-waitForObject :Mic-Normal
-Data set actual: 
-Process TS: Y
-Ki?m tra ph?n ?ng gi�o vi�n_text_2
-Data set actual: No worries! We can talk about it later.
-Params: QuestionHolderMKText/TxtQuestion,TextMeshProUGUI,15,No worries! We can talk about it later.
-Data: 
-TS4:  Check - Ki?m tra ph?n ?ng gi�o vi�n_text_2
-type: class java.lang.String
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: No worries!
-|convert 2 param |: No worries!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: No worries!
-|convert 2 param |: No worries!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: No worries!
-|convert 2 param |: No worries!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: No worries!
-|convert 2 param |: No worries!
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: 
-|convert 2 param |: 
-Sleep: 0.2
-request: http://localhost:8342/q/scene//QuestionHolderMKText/TxtQuestion.TextMeshProUGUI
-|convert 2 param |: We can talk about it later.
-|convert 2 param |: We can talk about it later.
-Check - Ki?m tra ph?n ?ng gi�o vi�n_text_2
-Process TS: Y
-Ki?m tra ph?n ?ng gi�o vi�n_video_2
-Data set actual: 
-Params: MSPPD01AIDialog(Clone)/VideoPlayer (1),/,mp4
-Data: 
-TS3:  Check - Ki?m tra ph?n ?ng gi�o vi�n_video_2
-type: class java.lang.String
-request: http://localhost:8342/q/scene//MSPPD01AIDialog(Clone)/VideoPlayer (1).VideoPlayer
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_8.mp4
-|convert 2 param |: C:/Users/Monkey/AppData/LocalLow/Early Start/MonkeyX/extract/videocall/LA_Greetings_1_U1_Hello_v3/1_8.mp4
-1_8.mp4
-Check - Ki?m tra ph?n ?ng gi�o vi�n_video_2
-runOneTime 0
-sendMessTele: 
-Sleep: 1
-sendMessTele: End: 2024-04-19T15:47:19
+[INFO ] 06-05-2024 04:26:55 [main] Log - SCOPE_PATH: D:\\tool_test_game\\config\\Scope.xlsx
+[INFO ] 06-05-2024 04:26:56 [main] Log - FLOW: Data
+[INFO ] 06-05-2024 04:26:56 [main] Log - Reset pass number
+[INFO ] 06-05-2024 04:26:56 [main] Log - Reset fail number
+[INFO ] 06-05-2024 04:26:58 [main] Log - sendMessTele: Start: 2024-05-06T04:26:56
+[INFO ] 06-05-2024 04:26:58 [main] Log - Total scope : 5
+[INFO ] 06-05-2024 04:26:58 [main] Log - returnSizeTestSuit with total(4)
+[INFO ] 06-05-2024 04:26:58 [main] Log - Run only test suit
+[INFO ] 06-05-2024 04:26:58 [main] Log - iFirstTestSuit: 1
+[INFO ] 06-05-2024 04:26:58 [main] Log - iLastTestSuit: 4
+[INFO ] 06-05-2024 04:26:58 [main] Log - runOneTime 0
+[INFO ] 06-05-2024 04:26:58 [main] Log - Run data from 3 to 3
+[INFO ] 06-05-2024 04:26:58 [main] Log - D:\\tool_test_game\\config\\data\\lesson.json
+[INFO ] 06-05-2024 04:26:58 [main] Log - levelFolder: D:\tool_test_game\config\report//A
+[INFO ] 06-05-2024 04:26:58 [main] Log - Folder path report course: D:\tool_test_game\config\report//A
+[INFO ] 06-05-2024 04:26:58 [main] Log - Folder path report level: D:\tool_test_game\config\report//A
+[INFO ] 06-05-2024 04:26:58 [main] Log -  copy Scope success!!!
+[INFO ] 06-05-2024 04:26:58 [main] Log - execute_suites
+[INFO ] 06-05-2024 04:26:58 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 06-05-2024 04:27:04 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 06-05-2024 04:27:04 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_Play lesson_Hello!Lesson 3_3.xlsx
+[INFO ] 06-05-2024 04:27:04 [main] Log - Total TC: 6
+[INFO ] 06-05-2024 04:27:05 [main] Log - TCID: TC5
+[INFO ] 06-05-2024 04:27:05 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:05 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:05 [main] Log - Đợi lesson xuất hiện
+[INFO ] 06-05-2024 04:27:05 [main] Log - TS1:  Đợi lesson xuất hiện
+[INFO ] 06-05-2024 04:27:05 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[0]/Road/ButtonLesson3
+[INFO ] 06-05-2024 04:27:05 [main] Log - waitForObject :Map(Clone)[0]/Road/ButtonLesson3
+[INFO ] 06-05-2024 04:27:06 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:06 [main] Log - Xác định lesson cần chọn
+[INFO ] 06-05-2024 04:27:06 [main] Log - TS2:  Xác định lesson cần chọn
+[INFO ] 06-05-2024 04:27:06 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[0]/Road/ButtonLesson3.tag=clickable
+[INFO ] 06-05-2024 04:27:06 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:06 [main] Log - play lesson
+[INFO ] 06-05-2024 04:27:06 [main] Log - TS3:  play lesson
+[INFO ] 06-05-2024 04:27:06 [main] Log - request: http://localhost:8342/q/pointer.PressWithTag(clickable,Untagged)
+[INFO ] 06-05-2024 04:27:07 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:07 [main] Log - Đợi map biến mất
+[INFO ] 06-05-2024 04:27:07 [main] Log - TS4:  Đợi map biến mất
+[INFO ] 06-05-2024 04:27:07 [main] Log - request: http://localhost:8342/q/scene//CanvasHome
+[INFO ] 06-05-2024 04:27:08 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_Set Index Variable_Hello!Lesson 3_3.xlsx
+[INFO ] 06-05-2024 04:27:08 [main] Log - Total TC: 2
+[INFO ] 06-05-2024 04:27:08 [main] Log - TCID: TC1
+[INFO ] 06-05-2024 04:27:08 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:08 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:08 [main] Log - Paus
+[INFO ] 06-05-2024 04:27:08 [main] Log - TS1:  Paus
+[INFO ] 06-05-2024 04:27:08 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 06-05-2024 04:27:08 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:08 [main] Log - Reset variable Index
+[INFO ] 06-05-2024 04:27:08 [main] Log - TS2:  Reset variable Index
+[INFO ] 06-05-2024 04:27:08 [main] Log - setIndexVariableFile 0
+[INFO ] 06-05-2024 04:27:09 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:09 [main] Log - Unpause
+[INFO ] 06-05-2024 04:27:09 [main] Log - TS3:  Unpause
+[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 06-05-2024 04:27:09 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_MSP.ChW(Clone)_Hello!Lesson 3_3.xlsx
+[INFO ] 06-05-2024 04:27:10 [main] Log - Total TC: 14
+[INFO ] 06-05-2024 04:27:10 [main] Log - TCID: TC1
+[INFO ] 06-05-2024 04:27:10 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:10 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:10 [main] Log - Kiểm tra text câu hỏi
+[INFO ] 06-05-2024 04:27:10 [main] Log - TS1:  Kiểm tra text câu hỏi
+[INFO ] 06-05-2024 04:27:10 [main] Log - request: http://localhost:8342/q/scene//Question chat box
+[INFO ] 06-05-2024 04:27:10 [main] Log - waitForObject :Question chat box
+[INFO ] 06-05-2024 04:27:11 [main] Log - TCID: TC2
+[INFO ] 06-05-2024 04:27:11 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:11 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:11 [main] Log - Kiểm tra audio câu hỏi 
+[INFO ] 06-05-2024 04:27:11 [main] Log - TS1:  Kiểm tra audio câu hỏi 
+[INFO ] 06-05-2024 04:27:11 [main] Log - request: http://localhost:8342/q/scene//10ef1b19-1379-4697-804a-143ac918043c
+[INFO ] 06-05-2024 04:27:11 [main] Log - waitForObject :10ef1b19-1379-4697-804a-143ac918043c
+[INFO ] 06-05-2024 04:27:11 [main] Log - TCID: TC3
+[INFO ] 06-05-2024 04:27:11 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:11 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:11 [main] Log - Chờ câu trả lời xuất hiện
+[INFO ] 06-05-2024 04:27:11 [main] Log - TS1:  Chờ câu trả lời xuất hiện
+[INFO ] 06-05-2024 04:27:11 [main] Log - request: http://localhost:8342/q/scene//Reply chat box
+[INFO ] 06-05-2024 04:27:11 [main] Log - waitForObject :Reply chat box
+[INFO ] 06-05-2024 04:27:12 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:12 [main] Log - Kiểm tra ảnh câu trả lời 1
+[INFO ] 06-05-2024 04:27:12 [main] Log - TS2:  Check - Kiểm tra ảnh câu trả lời 1
+[INFO ] 06-05-2024 04:27:12 [main] Log - request: http://localhost:8342/q/scene//Answer image/Content
+[INFO ] 06-05-2024 04:27:12 [main] Log - waitForObject :Answer image/Content
+[INFO ] 06-05-2024 04:27:12 [main] Log - request: http://localhost:8342/q/scene//Answer image/Content.Image
+[INFO ] 06-05-2024 04:27:12 [main] Log - Check - Kiểm tra ảnh câu trả lời 1
+[INFO ] 06-05-2024 04:27:12 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:12 [main] Log - Kiểm tra audio câu trả lời
+[INFO ] 06-05-2024 04:27:13 [main] Log - TS3:  Check - Kiểm tra audio câu trả lời
+[INFO ] 06-05-2024 04:27:13 [main] Log - getAudiosSourceByTime
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - waitForObject :FxSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
+[INFO ] 06-05-2024 04:27:14 [main] Log - Sleep: 0.2
+[INFO ] 06-05-2024 04:27:14 [main] Log - Check - Kiểm tra audio câu trả lời
+[INFO ] 06-05-2024 04:27:14 [main] Log - TCID: TC4
+[INFO ] 06-05-2024 04:27:14 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:14 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:14 [main] Log - chờ đáp án xuất hiện
+[INFO ] 06-05-2024 04:27:14 [main] Log - TS3:  chờ đáp án xuất hiện
+[INFO ] 06-05-2024 04:27:14 [main] Log - request: http://localhost:8342/q/scene//Button (1)
+[INFO ] 06-05-2024 04:27:14 [main] Log - waitForObject :Button (1)
+[INFO ] 06-05-2024 04:27:15 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:15 [main] Log - kiểm tra text đáp án 1
+[INFO ] 06-05-2024 04:27:15 [main] Log - TS1:  Check - kiểm tra text đáp án 1
+[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button/Content.TextMeshProUGUI
+[INFO ] 06-05-2024 04:27:15 [main] Log - Check - kiểm tra text đáp án 1
+[INFO ] 06-05-2024 04:27:15 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:15 [main] Log - Kiểm tra audio đáp án 1
+[INFO ] 06-05-2024 04:27:15 [main] Log - TS2:  Kiểm tra audio đáp án 1
+[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button
+[INFO ] 06-05-2024 04:27:15 [main] Log - waitForObject :Button
+[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button.Button.onClick()
+[INFO ] 06-05-2024 04:27:15 [main] Log - TS2:  Check - Kiểm tra audio đáp án 1
+[INFO ] 06-05-2024 04:27:21 [main] Log - Check - Kiểm tra audio đáp án 1
+[ERROR] 06-05-2024 04:27:21 [main] Log - Exception | expect [true] but found [false]
+[ERROR] 06-05-2024 04:27:21 [main] Log - Exception | expect [true] but found [false]
+[INFO ] 06-05-2024 04:27:21 [main] Log - request: http://localhost:8342/utils/appscreenshot
+[INFO ] 06-05-2024 04:27:22 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:22 [main] Log - Kiểm tra text đáp án 2
+[INFO ] 06-05-2024 04:27:22 [main] Log - TS3:  Check - Kiểm tra text đáp án 2
+[INFO ] 06-05-2024 04:27:22 [main] Log - request: http://localhost:8342/q/scene//Button (1)/Content.TextMeshProUGUI
+[INFO ] 06-05-2024 04:27:22 [main] Log - Check - Kiểm tra text đáp án 2
+[INFO ] 06-05-2024 04:27:23 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:23 [main] Log - Kiểm tra audio đáp án 2
+[INFO ] 06-05-2024 04:27:23 [main] Log - TS4:  Kiểm tra audio đáp án 2
+[INFO ] 06-05-2024 04:27:23 [main] Log - request: http://localhost:8342/q/scene//Button (1)
+[INFO ] 06-05-2024 04:27:23 [main] Log - waitForObject :Button (1)
+[INFO ] 06-05-2024 04:27:23 [main] Log - request: http://localhost:8342/q/scene//Button (1).Button.onClick()
+[INFO ] 06-05-2024 04:27:23 [main] Log - TS4:  Check - Kiểm tra audio đáp án 2
+[INFO ] 06-05-2024 04:27:28 [main] Log - Check - Kiểm tra audio đáp án 2
+[ERROR] 06-05-2024 04:27:28 [main] Log - Exception | expect [true] but found [false]
+[ERROR] 06-05-2024 04:27:28 [main] Log - Exception | expect [true] but found [false]
+[INFO ] 06-05-2024 04:27:28 [main] Log - request: http://localhost:8342/utils/appscreenshot
+[INFO ] 06-05-2024 04:27:30 [main] Log - TCID: TC5
+[INFO ] 06-05-2024 04:27:30 [main] Log - result: FAIL
+[INFO ] 06-05-2024 04:27:30 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:30 [main] Log - Xác định đáp án đúng
+[INFO ] 06-05-2024 04:27:30 [main] Log - TS1:  Xác định đáp án đúng
+[INFO ] 06-05-2024 04:27:30 [main] Log - request: http://localhost:8342/q/scene//Answers area//Content
+[INFO ] 06-05-2024 04:27:30 [main] Log - waitForObject :Answers area//Content
+[INFO ] 06-05-2024 04:27:30 [main] Log - request: http://localhost:8342/q/scene//Answers area//Content.TextMeshProUGUI
+[INFO ] 06-05-2024 04:27:30 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:30 [main] Log - Xác định name đáp án đúng
+[INFO ] 06-05-2024 04:27:30 [main] Log - TS2:  Xác định name đáp án đúng
+[ERROR] 06-05-2024 04:27:30 [main] Log - returnPath
+[ERROR] 06-05-2024 04:27:30 [main] Log - argument type mismatch
+[INFO ] 06-05-2024 04:27:31 [main] Log - request: http://localhost:8342/utils/appscreenshot
+[INFO ] 06-05-2024 04:27:32 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:32 [main] Log - Kiểm tra kéo đáp án đúng
+[INFO ] 06-05-2024 04:27:32 [main] Log - TS3:  Kiểm tra kéo đáp án đúng
+[INFO ] 06-05-2024 04:27:32 [main] Log - request: http://localhost:8342/q/pointer.drag(MC.RS01ItemDrag_0,Reply chat box/Placeholder box)
+[INFO ] 06-05-2024 04:27:33 [main] Log - Sleep: 1
+[INFO ] 06-05-2024 04:27:33 [main] Log - request: http://localhost:8342/q/pointer.drag(MC.RS01ItemDrag_0,Reply chat box/Placeholder box)
+[INFO ] 06-05-2024 04:27:34 [main] Log - Sleep: 1
+[INFO ] 06-05-2024 04:27:35 [main] Log - TCID: TC6
+[INFO ] 06-05-2024 04:27:35 [main] Log - result: PASS
+[INFO ] 06-05-2024 04:27:35 [main] Log - Process TS: Y
+[INFO ] 06-05-2024 04:27:35 [main] Log - Đợi pháo hoa xuất hiện
+[INFO ] 06-05-2024 04:27:35 [main] Log - TS4:  Đợi pháo hoa xuất hiện
+[INFO ] 06-05-2024 04:27:35 [main] Log - request: http://localhost:8342/q/scene//Firework
+[INFO ] 06-05-2024 04:27:36 [main] Log - request: http://localhost:8342/q/scene//Firework
