@@ -2,7 +2,7 @@
   "scope_path": "\\tool_test_game\\config\\Scope.xlsx",
   "scope_copy_path": "\\tool_test_game\\config\\Scope_Copy.xlsx",
   "testcase_path": "\\tool_test_game\\config\\testcases\\",
-  "data_file_path":"\\tool_test_game\\config\\data\\lesson_level3.json",
+  "data_file_path":"\\tool_test_game\\config\\data\\lesson_level2.json",
   "data_file_path1":"\\tool_test_game\\config\\data\\structure.json",
   "file_name_report_data_flow": "",
   "scope_report": "\\tool_test_game\\config\\report\\scope\\",
