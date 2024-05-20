@@ -1,176 +1,838 @@
-[INFO ] 06-05-2024 04:26:55 [main] Log - SCOPE_PATH: D:\\tool_test_game\\config\\Scope.xlsx
-[INFO ] 06-05-2024 04:26:56 [main] Log - FLOW: Data
-[INFO ] 06-05-2024 04:26:56 [main] Log - Reset pass number
-[INFO ] 06-05-2024 04:26:56 [main] Log - Reset fail number
-[INFO ] 06-05-2024 04:26:58 [main] Log - sendMessTele: Start: 2024-05-06T04:26:56
-[INFO ] 06-05-2024 04:26:58 [main] Log - Total scope : 5
-[INFO ] 06-05-2024 04:26:58 [main] Log - returnSizeTestSuit with total(4)
-[INFO ] 06-05-2024 04:26:58 [main] Log - Run only test suit
-[INFO ] 06-05-2024 04:26:58 [main] Log - iFirstTestSuit: 1
-[INFO ] 06-05-2024 04:26:58 [main] Log - iLastTestSuit: 4
-[INFO ] 06-05-2024 04:26:58 [main] Log - runOneTime 0
-[INFO ] 06-05-2024 04:26:58 [main] Log - Run data from 3 to 3
-[INFO ] 06-05-2024 04:26:58 [main] Log - D:\\tool_test_game\\config\\data\\lesson.json
-[INFO ] 06-05-2024 04:26:58 [main] Log - levelFolder: D:\tool_test_game\config\report//A
-[INFO ] 06-05-2024 04:26:58 [main] Log - Folder path report course: D:\tool_test_game\config\report//A
-[INFO ] 06-05-2024 04:26:58 [main] Log - Folder path report level: D:\tool_test_game\config\report//A
-[INFO ] 06-05-2024 04:26:58 [main] Log -  copy Scope success!!!
-[INFO ] 06-05-2024 04:26:58 [main] Log - execute_suites
-[INFO ] 06-05-2024 04:26:58 [main] Log - request: http://localhost:8342/q/pointer.pause()
-[INFO ] 06-05-2024 04:27:04 [main] Log - request: http://localhost:8342/q/pointer.resume()
-[INFO ] 06-05-2024 04:27:04 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_Play lesson_Hello!Lesson 3_3.xlsx
-[INFO ] 06-05-2024 04:27:04 [main] Log - Total TC: 6
-[INFO ] 06-05-2024 04:27:05 [main] Log - TCID: TC5
-[INFO ] 06-05-2024 04:27:05 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:05 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:05 [main] Log - Đợi lesson xuất hiện
-[INFO ] 06-05-2024 04:27:05 [main] Log - TS1:  Đợi lesson xuất hiện
-[INFO ] 06-05-2024 04:27:05 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[0]/Road/ButtonLesson3
-[INFO ] 06-05-2024 04:27:05 [main] Log - waitForObject :Map(Clone)[0]/Road/ButtonLesson3
-[INFO ] 06-05-2024 04:27:06 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:06 [main] Log - Xác định lesson cần chọn
-[INFO ] 06-05-2024 04:27:06 [main] Log - TS2:  Xác định lesson cần chọn
-[INFO ] 06-05-2024 04:27:06 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[0]/Road/ButtonLesson3.tag=clickable
-[INFO ] 06-05-2024 04:27:06 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:06 [main] Log - play lesson
-[INFO ] 06-05-2024 04:27:06 [main] Log - TS3:  play lesson
-[INFO ] 06-05-2024 04:27:06 [main] Log - request: http://localhost:8342/q/pointer.PressWithTag(clickable,Untagged)
-[INFO ] 06-05-2024 04:27:07 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:07 [main] Log - Đợi map biến mất
-[INFO ] 06-05-2024 04:27:07 [main] Log - TS4:  Đợi map biến mất
-[INFO ] 06-05-2024 04:27:07 [main] Log - request: http://localhost:8342/q/scene//CanvasHome
-[INFO ] 06-05-2024 04:27:08 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_Set Index Variable_Hello!Lesson 3_3.xlsx
-[INFO ] 06-05-2024 04:27:08 [main] Log - Total TC: 2
-[INFO ] 06-05-2024 04:27:08 [main] Log - TCID: TC1
-[INFO ] 06-05-2024 04:27:08 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:08 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:08 [main] Log - Paus
-[INFO ] 06-05-2024 04:27:08 [main] Log - TS1:  Paus
-[INFO ] 06-05-2024 04:27:08 [main] Log - request: http://localhost:8342/q/pointer.pause()
-[INFO ] 06-05-2024 04:27:08 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:08 [main] Log - Reset variable Index
-[INFO ] 06-05-2024 04:27:08 [main] Log - TS2:  Reset variable Index
-[INFO ] 06-05-2024 04:27:08 [main] Log - setIndexVariableFile 0
-[INFO ] 06-05-2024 04:27:09 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:09 [main] Log - Unpause
-[INFO ] 06-05-2024 04:27:09 [main] Log - TS3:  Unpause
-[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.resume()
-[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.pause()
-[INFO ] 06-05-2024 04:27:09 [main] Log - request: http://localhost:8342/q/pointer.resume()
-[INFO ] 06-05-2024 04:27:09 [main] Log - Path report TC current: D:\tool_test_game\config\report//A/Hello/\Report_MSP.ChW(Clone)_Hello!Lesson 3_3.xlsx
-[INFO ] 06-05-2024 04:27:10 [main] Log - Total TC: 14
-[INFO ] 06-05-2024 04:27:10 [main] Log - TCID: TC1
-[INFO ] 06-05-2024 04:27:10 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:10 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:10 [main] Log - Kiểm tra text câu hỏi
-[INFO ] 06-05-2024 04:27:10 [main] Log - TS1:  Kiểm tra text câu hỏi
-[INFO ] 06-05-2024 04:27:10 [main] Log - request: http://localhost:8342/q/scene//Question chat box
-[INFO ] 06-05-2024 04:27:10 [main] Log - waitForObject :Question chat box
-[INFO ] 06-05-2024 04:27:11 [main] Log - TCID: TC2
-[INFO ] 06-05-2024 04:27:11 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:11 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:11 [main] Log - Kiểm tra audio câu hỏi 
-[INFO ] 06-05-2024 04:27:11 [main] Log - TS1:  Kiểm tra audio câu hỏi 
-[INFO ] 06-05-2024 04:27:11 [main] Log - request: http://localhost:8342/q/scene//10ef1b19-1379-4697-804a-143ac918043c
-[INFO ] 06-05-2024 04:27:11 [main] Log - waitForObject :10ef1b19-1379-4697-804a-143ac918043c
-[INFO ] 06-05-2024 04:27:11 [main] Log - TCID: TC3
-[INFO ] 06-05-2024 04:27:11 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:11 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:11 [main] Log - Chờ câu trả lời xuất hiện
-[INFO ] 06-05-2024 04:27:11 [main] Log - TS1:  Chờ câu trả lời xuất hiện
-[INFO ] 06-05-2024 04:27:11 [main] Log - request: http://localhost:8342/q/scene//Reply chat box
-[INFO ] 06-05-2024 04:27:11 [main] Log - waitForObject :Reply chat box
-[INFO ] 06-05-2024 04:27:12 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:12 [main] Log - Kiểm tra ảnh câu trả lời 1
-[INFO ] 06-05-2024 04:27:12 [main] Log - TS2:  Check - Kiểm tra ảnh câu trả lời 1
-[INFO ] 06-05-2024 04:27:12 [main] Log - request: http://localhost:8342/q/scene//Answer image/Content
-[INFO ] 06-05-2024 04:27:12 [main] Log - waitForObject :Answer image/Content
-[INFO ] 06-05-2024 04:27:12 [main] Log - request: http://localhost:8342/q/scene//Answer image/Content.Image
-[INFO ] 06-05-2024 04:27:12 [main] Log - Check - Kiểm tra ảnh câu trả lời 1
-[INFO ] 06-05-2024 04:27:12 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:12 [main] Log - Kiểm tra audio câu trả lời
-[INFO ] 06-05-2024 04:27:13 [main] Log - TS3:  Check - Kiểm tra audio câu trả lời
-[INFO ] 06-05-2024 04:27:13 [main] Log - getAudiosSourceByTime
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - waitForObject :FxSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - Sleep: 0.2
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:13 [main] Log - request: http://localhost:8342/q/scene//FxSource.AudioSource
-[INFO ] 06-05-2024 04:27:14 [main] Log - Sleep: 0.2
-[INFO ] 06-05-2024 04:27:14 [main] Log - Check - Kiểm tra audio câu trả lời
-[INFO ] 06-05-2024 04:27:14 [main] Log - TCID: TC4
-[INFO ] 06-05-2024 04:27:14 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:14 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:14 [main] Log - chờ đáp án xuất hiện
-[INFO ] 06-05-2024 04:27:14 [main] Log - TS3:  chờ đáp án xuất hiện
-[INFO ] 06-05-2024 04:27:14 [main] Log - request: http://localhost:8342/q/scene//Button (1)
-[INFO ] 06-05-2024 04:27:14 [main] Log - waitForObject :Button (1)
-[INFO ] 06-05-2024 04:27:15 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:15 [main] Log - kiểm tra text đáp án 1
-[INFO ] 06-05-2024 04:27:15 [main] Log - TS1:  Check - kiểm tra text đáp án 1
-[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button/Content.TextMeshProUGUI
-[INFO ] 06-05-2024 04:27:15 [main] Log - Check - kiểm tra text đáp án 1
-[INFO ] 06-05-2024 04:27:15 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:15 [main] Log - Kiểm tra audio đáp án 1
-[INFO ] 06-05-2024 04:27:15 [main] Log - TS2:  Kiểm tra audio đáp án 1
-[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button
-[INFO ] 06-05-2024 04:27:15 [main] Log - waitForObject :Button
-[INFO ] 06-05-2024 04:27:15 [main] Log - request: http://localhost:8342/q/scene//Button.Button.onClick()
-[INFO ] 06-05-2024 04:27:15 [main] Log - TS2:  Check - Kiểm tra audio đáp án 1
-[INFO ] 06-05-2024 04:27:21 [main] Log - Check - Kiểm tra audio đáp án 1
-[ERROR] 06-05-2024 04:27:21 [main] Log - Exception | expect [true] but found [false]
-[ERROR] 06-05-2024 04:27:21 [main] Log - Exception | expect [true] but found [false]
-[INFO ] 06-05-2024 04:27:21 [main] Log - request: http://localhost:8342/utils/appscreenshot
-[INFO ] 06-05-2024 04:27:22 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:22 [main] Log - Kiểm tra text đáp án 2
-[INFO ] 06-05-2024 04:27:22 [main] Log - TS3:  Check - Kiểm tra text đáp án 2
-[INFO ] 06-05-2024 04:27:22 [main] Log - request: http://localhost:8342/q/scene//Button (1)/Content.TextMeshProUGUI
-[INFO ] 06-05-2024 04:27:22 [main] Log - Check - Kiểm tra text đáp án 2
-[INFO ] 06-05-2024 04:27:23 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:23 [main] Log - Kiểm tra audio đáp án 2
-[INFO ] 06-05-2024 04:27:23 [main] Log - TS4:  Kiểm tra audio đáp án 2
-[INFO ] 06-05-2024 04:27:23 [main] Log - request: http://localhost:8342/q/scene//Button (1)
-[INFO ] 06-05-2024 04:27:23 [main] Log - waitForObject :Button (1)
-[INFO ] 06-05-2024 04:27:23 [main] Log - request: http://localhost:8342/q/scene//Button (1).Button.onClick()
-[INFO ] 06-05-2024 04:27:23 [main] Log - TS4:  Check - Kiểm tra audio đáp án 2
-[INFO ] 06-05-2024 04:27:28 [main] Log - Check - Kiểm tra audio đáp án 2
-[ERROR] 06-05-2024 04:27:28 [main] Log - Exception | expect [true] but found [false]
-[ERROR] 06-05-2024 04:27:28 [main] Log - Exception | expect [true] but found [false]
-[INFO ] 06-05-2024 04:27:28 [main] Log - request: http://localhost:8342/utils/appscreenshot
-[INFO ] 06-05-2024 04:27:30 [main] Log - TCID: TC5
-[INFO ] 06-05-2024 04:27:30 [main] Log - result: FAIL
-[INFO ] 06-05-2024 04:27:30 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:30 [main] Log - Xác định đáp án đúng
-[INFO ] 06-05-2024 04:27:30 [main] Log - TS1:  Xác định đáp án đúng
-[INFO ] 06-05-2024 04:27:30 [main] Log - request: http://localhost:8342/q/scene//Answers area//Content
-[INFO ] 06-05-2024 04:27:30 [main] Log - waitForObject :Answers area//Content
-[INFO ] 06-05-2024 04:27:30 [main] Log - request: http://localhost:8342/q/scene//Answers area//Content.TextMeshProUGUI
-[INFO ] 06-05-2024 04:27:30 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:30 [main] Log - Xác định name đáp án đúng
-[INFO ] 06-05-2024 04:27:30 [main] Log - TS2:  Xác định name đáp án đúng
-[ERROR] 06-05-2024 04:27:30 [main] Log - returnPath
-[ERROR] 06-05-2024 04:27:30 [main] Log - argument type mismatch
-[INFO ] 06-05-2024 04:27:31 [main] Log - request: http://localhost:8342/utils/appscreenshot
-[INFO ] 06-05-2024 04:27:32 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:32 [main] Log - Kiểm tra kéo đáp án đúng
-[INFO ] 06-05-2024 04:27:32 [main] Log - TS3:  Kiểm tra kéo đáp án đúng
-[INFO ] 06-05-2024 04:27:32 [main] Log - request: http://localhost:8342/q/pointer.drag(MC.RS01ItemDrag_0,Reply chat box/Placeholder box)
-[INFO ] 06-05-2024 04:27:33 [main] Log - Sleep: 1
-[INFO ] 06-05-2024 04:27:33 [main] Log - request: http://localhost:8342/q/pointer.drag(MC.RS01ItemDrag_0,Reply chat box/Placeholder box)
-[INFO ] 06-05-2024 04:27:34 [main] Log - Sleep: 1
-[INFO ] 06-05-2024 04:27:35 [main] Log - TCID: TC6
-[INFO ] 06-05-2024 04:27:35 [main] Log - result: PASS
-[INFO ] 06-05-2024 04:27:35 [main] Log - Process TS: Y
-[INFO ] 06-05-2024 04:27:35 [main] Log - Đợi pháo hoa xuất hiện
-[INFO ] 06-05-2024 04:27:35 [main] Log - TS4:  Đợi pháo hoa xuất hiện
-[INFO ] 06-05-2024 04:27:35 [main] Log - request: http://localhost:8342/q/scene//Firework
-[INFO ] 06-05-2024 04:27:36 [main] Log - request: http://localhost:8342/q/scene//Firework
+[INFO ] 16-05-2024 18:46:37 [main] Log - SCOPE_PATH: D:\\tool_test_game\\config\\Scope.xlsx
+[INFO ] 16-05-2024 18:46:38 [main] Log - FLOW: Data
+[INFO ] 16-05-2024 18:46:38 [main] Log - Reset pass number
+[INFO ] 16-05-2024 18:46:38 [main] Log - Reset fail number
+[INFO ] 16-05-2024 18:46:43 [main] Log - sendMessTele: Start: 2024-05-16T18:46:39
+[INFO ] 16-05-2024 18:46:43 [main] Log - Total scope : 3
+[INFO ] 16-05-2024 18:46:43 [main] Log - returnSizeTestSuit with total(2)
+[INFO ] 16-05-2024 18:46:43 [main] Log - Run only test suit
+[INFO ] 16-05-2024 18:46:43 [main] Log - iFirstTestSuit: 1
+[INFO ] 16-05-2024 18:46:43 [main] Log - iLastTestSuit: 2
+[INFO ] 16-05-2024 18:46:43 [main] Log - runOneTime 0
+[INFO ] 16-05-2024 18:46:43 [main] Log - Run data from 12 to 12
+[INFO ] 16-05-2024 18:46:43 [main] Log - D:\\tool_test_game\\config\\data\\lesson_level2.json
+[INFO ] 16-05-2024 18:46:43 [main] Log - levelFolder: D:\tool_test_game\config\report//2//Its my favorite pencil//Lesson 3
+[INFO ] 16-05-2024 18:46:43 [main] Log - Folder path report course: D:\tool_test_game\config\report//2//Its my favorite pencil//Lesson 3
+[INFO ] 16-05-2024 18:46:43 [main] Log - Folder path report level: D:\tool_test_game\config\report
+[INFO ] 16-05-2024 18:46:43 [main] Log -  copy Scope success!!!
+[INFO ] 16-05-2024 18:46:43 [main] Log - execute_suites
+[INFO ] 16-05-2024 18:46:43 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 16-05-2024 18:46:47 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 16-05-2024 18:46:47 [main] Log - Deleted file: D:\tool_test_game\config\report\2\Its my favorite pencil\Lesson 3\Report_BrickLayer.BE.RS01(Clone)_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:46:47 [main] Log - Path report TC current: D:\tool_test_game\config\report//2//Its my favorite pencil//Lesson 3\Report_Play lesson_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:46:47 [main] Log - Total TC: 6
+[INFO ] 16-05-2024 18:46:47 [main] Log - TCID: TC1
+[INFO ] 16-05-2024 18:46:47 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:46:47 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:47 [main] Log - Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:47 [main] Log - TS1:  Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:47 [main] Log - request: http://localhost:8342/q/scene//CanvasGamePlay/ButtonClose
+[INFO ] 16-05-2024 18:46:48 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:48 [main] Log - Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:48 [main] Log - TS2:  Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:48 [main] Log - request: http://localhost:8342/q/scene//CanvasGamePlay/ButtonClose
+[INFO ] 16-05-2024 18:46:49 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:49 [main] Log - Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:49 [main] Log - TS3:  Kiểm tra màn hình map
+[INFO ] 16-05-2024 18:46:49 [main] Log - request: http://localhost:8342/q/scene//CanvasGamePlay/ButtonClose
+[INFO ] 16-05-2024 18:46:49 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:49 [main] Log - Xác định có cần chọn level
+[INFO ] 16-05-2024 18:46:49 [main] Log - TS4:  Xác định có cần chọn level
+[INFO ] 16-05-2024 18:46:49 [main] Log - request: http://localhost:8342/q/scene//LevelName.TextMeshProUGUI
+[INFO ] 16-05-2024 18:46:50 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:50 [main] Log - Xác định level
+[INFO ] 16-05-2024 18:46:50 [main] Log - TS5:  Xác định level
+[INFO ] 16-05-2024 18:46:50 [main] Log - setIndexVariableFile 2
+[INFO ] 16-05-2024 18:46:51 [main] Log - TCID: TC3
+[INFO ] 16-05-2024 18:46:51 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:46:51 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:51 [main] Log - Xác định có cần chuyển map
+[INFO ] 16-05-2024 18:46:51 [main] Log - TS1:  Xác định có cần chuyển map
+[INFO ] 16-05-2024 18:46:51 [main] Log - request: http://localhost:8342/q/scene//ButtonUnit/UnitName.TextMeshProUGUI
+[INFO ] 16-05-2024 18:46:52 [main] Log - TCID: TC5
+[INFO ] 16-05-2024 18:46:52 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:46:52 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:52 [main] Log - Xác định map
+[INFO ] 16-05-2024 18:46:52 [main] Log - TS1:  Xác định map
+[INFO ] 16-05-2024 18:46:52 [main] Log - setIndexVariableFile 2
+[INFO ] 16-05-2024 18:46:53 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:53 [main] Log - Xác định lesson
+[INFO ] 16-05-2024 18:46:53 [main] Log - TS2:  Xác định lesson
+[INFO ] 16-05-2024 18:46:53 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:53 [main] Log - Đợi lesson xuất hiện
+[INFO ] 16-05-2024 18:46:54 [main] Log - TS3:  Đợi lesson xuất hiện
+[INFO ] 16-05-2024 18:46:54 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[2]/Road/ButtonLesson3
+[INFO ] 16-05-2024 18:46:54 [main] Log - waitForObject :Map(Clone)[2]/Road/ButtonLesson3
+[INFO ] 16-05-2024 18:46:54 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:54 [main] Log - Xác định lesson cần play
+[INFO ] 16-05-2024 18:46:54 [main] Log - TS5:  Xác định lesson cần play
+[INFO ] 16-05-2024 18:46:54 [main] Log - request: http://localhost:8342/q/scene//Map(Clone)[2]/Road/ButtonLesson3.tag=clickable
+[INFO ] 16-05-2024 18:46:55 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:55 [main] Log - play lesson
+[INFO ] 16-05-2024 18:46:55 [main] Log - TS6:  play lesson
+[INFO ] 16-05-2024 18:46:55 [main] Log - request: http://localhost:8342/q/pointer.PressWithTag(clickable,Untagged)
+[INFO ] 16-05-2024 18:46:55 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:55 [main] Log - Đợi map biến mất
+[INFO ] 16-05-2024 18:46:55 [main] Log - TS7:  Đợi map biến mất
+[INFO ] 16-05-2024 18:46:55 [main] Log - request: http://localhost:8342/q/scene//CanvasHome
+[INFO ] 16-05-2024 18:46:57 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 16-05-2024 18:46:57 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 16-05-2024 18:46:57 [main] Log - Deleted file: D:\tool_test_game\config\report\2\Its my favorite pencil\Lesson 3\Report_Play lesson_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:46:57 [main] Log - Path report TC current: D:\tool_test_game\config\report//2//Its my favorite pencil//Lesson 3\Report_MC.RS01DienThe(Clone)_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:46:57 [main] Log - Total TC: 13
+[INFO ] 16-05-2024 18:46:57 [main] Log - TCID: TC1
+[INFO ] 16-05-2024 18:46:57 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:46:57 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:57 [main] Log - Reset variable Index
+[INFO ] 16-05-2024 18:46:57 [main] Log - TS1:  Reset variable Index
+[INFO ] 16-05-2024 18:46:57 [main] Log - setIndexVariableFile 0
+[INFO ] 16-05-2024 18:46:58 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:58 [main] Log - Chờ text câu 1 xuất hiện
+[INFO ] 16-05-2024 18:46:58 [main] Log - TS2:  Chờ text câu 1 xuất hiện
+[INFO ] 16-05-2024 18:46:58 [main] Log - request: http://localhost:8342/q/scene//ContenDrag
+[INFO ] 16-05-2024 18:46:58 [main] Log - waitForObject :ContenDrag
+[INFO ] 16-05-2024 18:46:58 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:58 [main] Log - Kiểm tra audio câu 1
+[INFO ] 16-05-2024 18:46:58 [main] Log - TS3:  Check - Kiểm tra audio câu 1
+[INFO ] 16-05-2024 18:46:58 [main] Log - getAudiosSourceByTime
+[INFO ] 16-05-2024 18:46:58 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:46:58 [main] Log - Check - Kiểm tra audio câu 1
+[INFO ] 16-05-2024 18:46:59 [main] Log - TCID: TC2
+[INFO ] 16-05-2024 18:46:59 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:46:59 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:46:59 [main] Log - Xác định đáp án chọn ảnh hay từ
+[INFO ] 16-05-2024 18:46:59 [main] Log - TS1:  Xác định đáp án chọn ảnh hay từ
+[INFO ] 16-05-2024 18:46:59 [main] Log - Dien the choose image or text
+[INFO ] 16-05-2024 18:46:59 [main] Log - request: http://localhost:8342/q/scene//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:00 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:00 [main] Log - Xác định loại data cần kiểm tra
+[INFO ] 16-05-2024 18:47:00 [main] Log - TCID: TC3
+[INFO ] 16-05-2024 18:47:00 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:00 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:00 [main] Log - Kiểm tra ảnh đáp án 1
+[INFO ] 16-05-2024 18:47:00 [main] Log - TS1:  Check - Kiểm tra ảnh đáp án 1
+[INFO ] 16-05-2024 18:47:00 [main] Log - comPairImage ItemsDrag/*RS01ItemDrag_0//ImageData_[]
+[INFO ] 16-05-2024 18:47:00 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_0//ImageData
+[INFO ] 16-05-2024 18:47:00 [main] Log - Check - Kiểm tra ảnh đáp án 1
+[INFO ] 16-05-2024 18:47:01 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:01 [main] Log - Kiểm tra ảnh đáp án 2
+[INFO ] 16-05-2024 18:47:01 [main] Log - TS2:  Check - Kiểm tra ảnh đáp án 2
+[INFO ] 16-05-2024 18:47:01 [main] Log - comPairImage ItemsDrag/*RS01ItemDrag_1//ImageData_[]
+[INFO ] 16-05-2024 18:47:01 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_1//ImageData
+[INFO ] 16-05-2024 18:47:01 [main] Log - Check - Kiểm tra ảnh đáp án 2
+[INFO ] 16-05-2024 18:47:02 [main] Log - TCID: TC4
+[INFO ] 16-05-2024 18:47:02 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:02 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:02 [main] Log - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:02 [main] Log - TS3:  Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:02 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_0//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:02 [main] Log - Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:02 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:02 [main] Log - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:03 [main] Log - TS4:  Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:03 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_1//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:03 [main] Log - Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:03 [main] Log - TCID: TC5
+[INFO ] 16-05-2024 18:47:03 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:03 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:03 [main] Log - Kiểm tra audio đáp án 1
+[INFO ] 16-05-2024 18:47:03 [main] Log - TS1:  Kiểm tra audio đáp án 1
+[INFO ] 16-05-2024 18:47:03 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_0
+[INFO ] 16-05-2024 18:47:04 [main] Log - request: http://localhost:8342/q/pointer.DownToUp(MC<_>RS01DienThe(Clone)/GamePlayDrag/ContenDrag/ItemsDrag/MC<_>RS01ItemDrag_0_true)
+[INFO ] 16-05-2024 18:47:05 [main] Log - TCID: TC6
+[INFO ] 16-05-2024 18:47:05 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:05 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:05 [main] Log - Kiểm tra audio đáp án 2
+[INFO ] 16-05-2024 18:47:05 [main] Log - TS2:  Kiểm tra audio đáp án 2
+[INFO ] 16-05-2024 18:47:05 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_1
+[INFO ] 16-05-2024 18:47:05 [main] Log - request: http://localhost:8342/q/pointer.DownToUp(MC<_>RS01DienThe(Clone)/GamePlayDrag/ContenDrag/ItemsDrag/MC<_>RS01ItemDrag_1_false)
+[INFO ] 16-05-2024 18:47:06 [main] Log - TCID: TC7
+[INFO ] 16-05-2024 18:47:06 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:06 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:06 [main] Log - Đợi guiding xuất hiện
+[INFO ] 16-05-2024 18:47:06 [main] Log - TS1:  Đợi guiding xuất hiện
+[INFO ] 16-05-2024 18:47:06 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:06 [main] Log - waitForObject :GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:06 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:06 [main] Log - Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:06 [main] Log - TS2:  Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:06 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:06 [main] Log - waitForObject :GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:06 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:07 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:07 [main] Log - Kiểm tra kéo đáp án đúng
+[INFO ] 16-05-2024 18:47:07 [main] Log - TS3:  Kiểm tra kéo đáp án đúng
+[INFO ] 16-05-2024 18:47:07 [main] Log - request: http://localhost:8342/q/pointer.drag(ItemsDrag/MC.RS01ItemDrag_0_true,SyncItem_Image(Clone))
+[INFO ] 16-05-2024 18:47:08 [main] Log - Sleep: 1
+[INFO ] 16-05-2024 18:47:08 [main] Log - request: http://localhost:8342/q/pointer.drag(ItemsDrag/MC.RS01ItemDrag_0_true,SyncItem_Image(Clone))
+[INFO ] 16-05-2024 18:47:09 [main] Log - Sleep: 1
+[INFO ] 16-05-2024 18:47:09 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:09 [main] Log - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:09 [main] Log - TS5:  Check - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:09 [main] Log - getAudiosSourceByTime
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:09 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:10 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:11 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:12 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:13 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:14 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:14 [main] Log - Check - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:15 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:15 [main] Log - Kiểm tra text hoàn chỉnh
+[INFO ] 16-05-2024 18:47:15 [main] Log - TS4:  Kiểm tra text hoàn chỉnh
+[INFO ] 16-05-2024 18:47:15 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:15 [main] Log - waitForObject :Mic-Working
+[INFO ] 16-05-2024 18:47:15 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:15 [main] Log - Click ghi âm
+[INFO ] 16-05-2024 18:47:15 [main] Log - TS7:  Click ghi âm
+[INFO ] 16-05-2024 18:47:15 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:15 [main] Log - waitForObject :Mic-Working
+[INFO ] 16-05-2024 18:47:15 [main] Log - request: http://localhost:8342/q/scene//Mic-Working.Button.onClick()
+[INFO ] 16-05-2024 18:47:16 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:16 [main] Log - Chờ text câu 2 xuất hiện (L2)
+[INFO ] 16-05-2024 18:47:16 [main] Log - TS8:  Chờ text câu 2 xuất hiện (L2)
+[INFO ] 16-05-2024 18:47:16 [main] Log - request: http://localhost:8342/q/scene//Mic-Disable
+[INFO ] 16-05-2024 18:47:16 [main] Log - request: http://localhost:8342/q/scene//Mic-Disable
+[INFO ] 16-05-2024 18:47:17 [main] Log - request: http://localhost:8342/q/scene//Mic-Disable
+[INFO ] 16-05-2024 18:47:17 [main] Log - request: http://localhost:8342/q/scene//Mic-Disable
+[INFO ] 16-05-2024 18:47:17 [main] Log - waitForObject :Mic-Disable
+[INFO ] 16-05-2024 18:47:18 [main] Log - TS8:  Check - Chờ text câu 2 xuất hiện (L2)
+[INFO ] 16-05-2024 18:47:18 [main] Log - getAudiosSourceByTime
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:18 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:19 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:20 [main] Log - Sleep: 0.2
+[INFO ] 16-05-2024 18:47:20 [main] Log - Check - Chờ text câu 2 xuất hiện (L2)
+[INFO ] 16-05-2024 18:47:20 [main] Log - TCID: TC8
+[INFO ] 16-05-2024 18:47:20 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:20 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:20 [main] Log - Xác định loại data cần kiểm tra
+[INFO ] 16-05-2024 18:47:21 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:21 [main] Log - Kiểm tra ảnh đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:21 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:21 [main] Log - Kiểm tra ảnh đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:22 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:22 [main] Log - Kiểm tra ảnh đáp án 3(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - TCID: TC9
+[INFO ] 16-05-2024 18:47:23 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:23 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:23 [main] Log - Kiểm tra text đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - TS1:  Check - Kiểm tra text đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_0//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:23 [main] Log - Check - Kiểm tra text đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:23 [main] Log - Kiểm tra text đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - TS2:  Check - Kiểm tra text đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:23 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_1//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:23 [main] Log - Check - Kiểm tra text đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:24 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:24 [main] Log - Kiểm tra text đáp án 3(L2)
+[INFO ] 16-05-2024 18:47:24 [main] Log - TS3:  Check - Kiểm tra text đáp án 3(L2)
+[INFO ] 16-05-2024 18:47:24 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_2//TextData.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:24 [main] Log - Check - Kiểm tra text đáp án 3(L2)
+[INFO ] 16-05-2024 18:47:25 [main] Log - TCID: TC10
+[INFO ] 16-05-2024 18:47:25 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:25 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:25 [main] Log - Kiểm tra audio đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:25 [main] Log - TS1:  Kiểm tra audio đáp án 1(L2)
+[INFO ] 16-05-2024 18:47:25 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_0
+[INFO ] 16-05-2024 18:47:25 [main] Log - request: http://localhost:8342/q/pointer.DownToUp(MC<_>RS01DienThe(Clone)/GamePlayDrag/ContenDrag/ItemsDrag/MC<_>RS01ItemDrag_0_true)
+[INFO ] 16-05-2024 18:47:25 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:25 [main] Log - Kiểm tra audio đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:25 [main] Log - TS2:  Kiểm tra audio đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:25 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_1
+[INFO ] 16-05-2024 18:47:25 [main] Log - request: http://localhost:8342/q/pointer.DownToUp(MC<_>RS01DienThe(Clone)/GamePlayDrag/ContenDrag/ItemsDrag/MC<_>RS01ItemDrag_1_false)
+[INFO ] 16-05-2024 18:47:26 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:26 [main] Log - Kiểm tra audio đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:26 [main] Log - TS3:  Kiểm tra audio đáp án 2(L2)
+[INFO ] 16-05-2024 18:47:26 [main] Log - request: http://localhost:8342/q/scene//ItemsDrag/*RS01ItemDrag_2
+[INFO ] 16-05-2024 18:47:26 [main] Log - request: http://localhost:8342/q/pointer.DownToUp(MC<_>RS01DienThe(Clone)/GamePlayDrag/ContenDrag/ItemsDrag/MC<_>RS01ItemDrag_2_false)
+[INFO ] 16-05-2024 18:47:27 [main] Log - TCID: TC11
+[INFO ] 16-05-2024 18:47:27 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:27 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:27 [main] Log - Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:27 [main] Log - TS1:  Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:27 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:27 [main] Log - waitForObject :GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:28 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:28 [main] Log - Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:28 [main] Log - TS1:  Xác định đáp án đúng
+[INFO ] 16-05-2024 18:47:28 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:28 [main] Log - waitForObject :GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:28 [main] Log - request: http://localhost:8342/q/scene//GuidingHand/*RS01ItemDrag*
+[INFO ] 16-05-2024 18:47:28 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:28 [main] Log - Kiểm tra kéo đáp án đúng
+[INFO ] 16-05-2024 18:47:28 [main] Log - TS2:  Kiểm tra kéo đáp án đúng
+[INFO ] 16-05-2024 18:47:28 [main] Log - request: http://localhost:8342/q/pointer.drag(ItemsDrag/MC.RS01ItemDrag_0_true,SyncItem_Image(Clone))
+[INFO ] 16-05-2024 18:47:29 [main] Log - Sleep: 1
+[INFO ] 16-05-2024 18:47:29 [main] Log - request: http://localhost:8342/q/pointer.drag(ItemsDrag/MC.RS01ItemDrag_0_true,SyncItem_Image(Clone))
+[INFO ] 16-05-2024 18:47:30 [main] Log - Sleep: 1
+[INFO ] 16-05-2024 18:47:31 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:31 [main] Log - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:31 [main] Log - TS4:  Check - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:31 [main] Log - getAudiosSourceByTime
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:31 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:32 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Managers/SoundManager/FxSource.AudioSource
+[INFO ] 16-05-2024 18:47:33 [main] Log - Check - Kiểm tra audio câu hoàn chỉnh
+[INFO ] 16-05-2024 18:47:33 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:33 [main] Log - Kiểm tra text hoàn chỉnh
+[INFO ] 16-05-2024 18:47:33 [main] Log - TS3:  Kiểm tra text hoàn chỉnh
+[INFO ] 16-05-2024 18:47:33 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:34 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:34 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:35 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:36 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:36 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:36 [main] Log - waitForObject :Mic-Working
+[INFO ] 16-05-2024 18:47:37 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:37 [main] Log - Click ghi âm
+[INFO ] 16-05-2024 18:47:37 [main] Log - TS6:  Click ghi âm
+[INFO ] 16-05-2024 18:47:37 [main] Log - request: http://localhost:8342/q/scene//Mic-Working
+[INFO ] 16-05-2024 18:47:37 [main] Log - waitForObject :Mic-Working
+[INFO ] 16-05-2024 18:47:37 [main] Log - request: http://localhost:8342/q/scene//Mic-Working.Button.onClick()
+[INFO ] 16-05-2024 18:47:37 [main] Log - TCID: TC12
+[INFO ] 16-05-2024 18:47:37 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:37 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:37 [main] Log - ĐỢi kết thúc game
+[INFO ] 16-05-2024 18:47:37 [main] Log - TS1:  ĐỢi kết thúc game
+[INFO ] 16-05-2024 18:47:37 [main] Log - request: http://localhost:8342/q/scene//MicroDienThe
+[INFO ] 16-05-2024 18:47:38 [main] Log - request: http://localhost:8342/q/scene//MicroDienThe
+[INFO ] 16-05-2024 18:47:38 [main] Log - request: http://localhost:8342/q/scene//MicroDienThe
+[INFO ] 16-05-2024 18:47:39 [main] Log - request: http://localhost:8342/q/scene//MicroDienThe
+[INFO ] 16-05-2024 18:47:41 [main] Log - request: http://localhost:8342/q/pointer.pause()
+[INFO ] 16-05-2024 18:47:41 [main] Log - request: http://localhost:8342/q/pointer.resume()
+[INFO ] 16-05-2024 18:47:41 [main] Log - Deleted file: D:\tool_test_game\config\report\2\Its my favorite pencil\Lesson 3\Report_MC.RS01DienThe(Clone)_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:47:41 [main] Log - Path report TC current: D:\tool_test_game\config\report//2//Its my favorite pencil//Lesson 3\Report_BrickLayer.BE.RS01(Clone)_Lesson 3_12.xlsx
+[INFO ] 16-05-2024 18:47:41 [main] Log - Total TC: 4
+[INFO ] 16-05-2024 18:47:41 [main] Log - TCID: TC1
+[INFO ] 16-05-2024 18:47:41 [main] Log - result: PASS
+[INFO ] 16-05-2024 18:47:41 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:41 [main] Log - Reset variable Index
+[INFO ] 16-05-2024 18:47:41 [main] Log - TS1:  Reset variable Index
+[INFO ] 16-05-2024 18:47:41 [main] Log - setIndexVariableFile 0
+[INFO ] 16-05-2024 18:47:41 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:41 [main] Log - Chờ Hàng gạch 1 xuất hiện
+[INFO ] 16-05-2024 18:47:41 [main] Log - TS2:  Chờ Hàng gạch 1 xuất hiện
+[INFO ] 16-05-2024 18:47:41 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:42 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:42 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:43 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:43 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:44 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:45 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:45 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:46 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:46 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:47 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:47 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:48 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:48 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:49 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:49 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:50 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:50 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:51 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:51 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:52 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:52 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:53 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:53 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:54 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:55 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick
+[INFO ] 16-05-2024 18:47:55 [main] Log - waitForObject :Layer2-Brick
+[INFO ] 16-05-2024 18:47:55 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:55 [main] Log - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:55 [main] Log - TS3:  Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:55 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[0]/TextLearn
+[INFO ] 16-05-2024 18:47:55 [main] Log - waitForObject :AnswerBrick(Clone)[0]/TextLearn
+[INFO ] 16-05-2024 18:47:55 [main] Log - TS3:  Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:55 [main] Log - getTextAlphabet
+[INFO ] 16-05-2024 18:47:55 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[0]/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:55 [main] Log - Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:47:56 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:56 [main] Log - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:56 [main] Log - TS4:  Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:56 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[1]/TextLearn
+[INFO ] 16-05-2024 18:47:56 [main] Log - waitForObject :AnswerBrick(Clone)[1]/TextLearn
+[INFO ] 16-05-2024 18:47:56 [main] Log - TS4:  Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:56 [main] Log - getTextAlphabet
+[INFO ] 16-05-2024 18:47:56 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[1]/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:56 [main] Log - Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:47:56 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:56 [main] Log - Xác định đáp án đúng 
+[INFO ] 16-05-2024 18:47:56 [main] Log - TS5:  Xác định đáp án đúng 
+[INFO ] 16-05-2024 18:47:56 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)/TextLearn
+[INFO ] 16-05-2024 18:47:56 [main] Log - waitForObject :AnswerBrick(Clone)/TextLearn
+[INFO ] 16-05-2024 18:47:56 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:47:57 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:57 [main] Log - Kiểm tra click đáp án đúng
+[INFO ] 16-05-2024 18:47:57 [main] Log - TS6:  Kiểm tra click đáp án đúng
+[INFO ] 16-05-2024 18:47:57 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:47:57 [main] Log - waitForObject :AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:47:57 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[0]
+[INFO ] 16-05-2024 18:47:57 [main] Log - request: http://localhost:8342/q/pointer.Press(BrickLayer<_>BE<_>RS01(Clone)/GamePlay-BrickLayers(Clone)/Canvas-GamePlay/GamePlay/Content/ContentAnswer/Answer/AnswerBrick(Clone),0)
+[INFO ] 16-05-2024 18:47:57 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:57 [main] Log - Kiểm tra audio hàng gạch 2
+[INFO ] 16-05-2024 18:47:58 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:47:58 [main] Log - Kiểm tra text hàng 2
+[INFO ] 16-05-2024 18:47:58 [main] Log - TS8:  Kiểm tra text hàng 2
+[INFO ] 16-05-2024 18:47:58 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:47:59 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:47:59 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:00 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:00 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:01 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:01 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:02 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:02 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:03 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:03 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:04 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:04 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:05 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:05 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:06 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:06 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:07 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:07 [main] Log - request: http://localhost:8342/q/scene//Layer3-Brick
+[INFO ] 16-05-2024 18:48:08 [main] Log - waitForObject :Layer3-Brick
+[INFO ] 16-05-2024 18:48:08 [main] Log - TS8:  Check - Kiểm tra text hàng 2
+[INFO ] 16-05-2024 18:48:08 [main] Log - request: http://localhost:8342/q/scene//Layer2-Brick/Text (TMP)(Clone).TextMeshProUGUI
+[INFO ] 16-05-2024 18:48:08 [main] Log - Check - Kiểm tra text hàng 2
+[ERROR] 16-05-2024 18:48:08 [main] Log - Exception | expect [Do you want to use my pencil?] but found [nullDo you want to use my <color=#83D420>pencil?</color> ]
+[ERROR] 16-05-2024 18:48:08 [main] Log - Exception | expect [Do you want to use my pencil?] but found [nullDo you want to use my <color=#83D420>pencil?</color> ]
+[INFO ] 16-05-2024 18:48:08 [main] Log - request: http://localhost:8342/utils/appscreenshot
+[INFO ] 16-05-2024 18:48:10 [main] Log - TCID: TC2
+[INFO ] 16-05-2024 18:48:10 [main] Log - result: FAIL
+[INFO ] 16-05-2024 18:48:10 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:10 [main] Log - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:48:10 [main] Log - TS1:  Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:48:10 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:11 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:11 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:12 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:12 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:13 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:13 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:14 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:14 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:15 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:15 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:16 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:16 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:17 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:17 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:18 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:18 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:19 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:19 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:20 [main] Log - request: http://localhost:8342/q/scene//Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:20 [main] Log - waitForObject :Answer\AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:21 [main] Log - TS1:  Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:48:21 [main] Log - getTextAlphabet
+[INFO ] 16-05-2024 18:48:21 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[0]/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:48:21 [main] Log - Check - Kiểm tra text đáp án 1
+[INFO ] 16-05-2024 18:48:21 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:21 [main] Log - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:48:21 [main] Log - TS2:  Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:48:21 [main] Log - getTextAlphabet
+[INFO ] 16-05-2024 18:48:21 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[1]/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:48:21 [main] Log - Check - Kiểm tra text đáp án 2
+[INFO ] 16-05-2024 18:48:22 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:22 [main] Log - Kiểm tra text đáp án 3
+[INFO ] 16-05-2024 18:48:22 [main] Log - TS3:  Check - Kiểm tra text đáp án 3
+[INFO ] 16-05-2024 18:48:22 [main] Log - getTextAlphabet
+[INFO ] 16-05-2024 18:48:22 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[2]/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:48:22 [main] Log - Check - Kiểm tra text đáp án 3
+[INFO ] 16-05-2024 18:48:22 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:22 [main] Log - Xác định đáp án đúng 
+[INFO ] 16-05-2024 18:48:22 [main] Log - TS4:  Xác định đáp án đúng 
+[INFO ] 16-05-2024 18:48:22 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)/TextLearn
+[INFO ] 16-05-2024 18:48:22 [main] Log - waitForObject :AnswerBrick(Clone)/TextLearn
+[INFO ] 16-05-2024 18:48:22 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)/TextLearn.TextMeshProUGUI
+[INFO ] 16-05-2024 18:48:23 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:23 [main] Log - Kiểm tra click đáp án đúng
+[INFO ] 16-05-2024 18:48:23 [main] Log - TS5:  Kiểm tra click đáp án đúng
+[INFO ] 16-05-2024 18:48:23 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:23 [main] Log - waitForObject :AnswerBrick(Clone)
+[INFO ] 16-05-2024 18:48:23 [main] Log - request: http://localhost:8342/q/scene//AnswerBrick(Clone)[0]
+[INFO ] 16-05-2024 18:48:23 [main] Log - request: http://localhost:8342/q/pointer.Press(BrickLayer<_>BE<_>RS01(Clone)/GamePlay-BrickLayers(Clone)/Canvas-GamePlay/GamePlay/Content/ContentAnswer/Answer/AnswerBrick(Clone),1)
+[INFO ] 16-05-2024 18:48:23 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:23 [main] Log - Kiểm tra audio hàng gạch 3
+[INFO ] 16-05-2024 18:48:24 [main] Log - Process TS: Y
+[INFO ] 16-05-2024 18:48:24 [main] Log - Kiểm tra text câu hàng 3
+[INFO ] 16-05-2024 18:48:24 [main] Log - TS15:  Kiểm tra text câu hàng 3
+[INFO ] 16-05-2024 18:48:24 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:24 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:25 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:25 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:26 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:27 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:27 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:28 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:28 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:29 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:29 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:30 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:30 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:31 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:31 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:32 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:32 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:33 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:33 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:34 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:35 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:35 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:36 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:36 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:37 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:37 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:38 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:38 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:39 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:39 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:40 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:40 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:41 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:41 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:42 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:42 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:43 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:44 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:44 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:45 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:45 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:46 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:46 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:47 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:47 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:48 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:48 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:49 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:49 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:50 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:50 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:51 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:52 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:52 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:53 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:53 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
+[INFO ] 16-05-2024 18:48:54 [main] Log - request: http://localhost:8342/q/scene//CaSke.SkeletonGraphic
