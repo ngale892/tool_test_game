@@ -3,3 +3,7 @@
 3. adb forward tcp:8342 tcp:8342 (cmd từ thư mục android)
 4. java -jar keyworddriven.monkey.game-2.0-SNAPSHOT-fat-tests.jar
 5. Check port http://localhost:8342/q/about
+6. set up for pocoSDK chạy android: 
+  6.1 adb -P 5037 -s DID wait-for-device
+  6.2. adb -P 5037 -s DID shell getprop ro.build.version.sdk
+  6.3. adb -P 5037 -s DID forward --no-rebind tcp:14738 tcp:5001

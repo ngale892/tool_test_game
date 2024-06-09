@@ -6,8 +6,7 @@ from airtest.cli.parser import cli_setup
 from jinja2.compiler import generate
 
 if not cli_setup():
-    auto_setup(__file__, logdir=False, devices=["android://127.0.0.1:5037/7cbc1b6a?touch_method=MAXTOUCH&",], project_root="D:/tool_test_game/simulate_py")
-
+    auto_setup(__file__, logdir=False, devices=["android://127.0.0.1:5037/SSIRZH6PKFIB89QK?touch_method=MAXTOUCH&",], project_root="D:/tool_test_game/simulate_py")
 
 
 from poco.drivers.unity3d import UnityPoco
