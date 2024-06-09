@@ -24,8 +24,6 @@ def drag_to_elem():
     print("start...")
     index_from = int(request.args.get('index_from'))
     index_to = int(request.args.get('index_to'))
-    print(index_from)
-    print(index_to)
     poco("wooden tray").child("LettersContainer").child(request.args.get('from'))[index_from].drag_to(
     poco("Wooden Table").child("LettersHolderContainer").child(request.args.get('to'))[index_to])
     print("end...")
