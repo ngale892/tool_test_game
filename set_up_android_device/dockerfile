@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+# Install required packages, including adb
+RUN apk add --no-cache \
+    android-tools
+
+# Set the working directory to /platform-tools
+WORKDIR /platform-tools
+
+# List devices using adb
+CMD ["adb", "devices -l"]

@@ -22,3 +22,4 @@ a = LogicHandle.get_element(name)
 a[0].drag_to(poco("Wooden Table").child("LettersHolderContainer").child('H')[0])
 print("end...")
 
+
