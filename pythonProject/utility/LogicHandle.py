@@ -1,6 +1,14 @@
+import json
+
 from poco.drivers.unity3d import UnityPoco
+
+from utility import Constanst
+from utility.Constanst import DEVICE_ID
+
+
 def get_device_id():
-    data = read_json_file(Constanst.ROOT_DIR+Constanst.CONFIG_FILE)
+    print(Constanst.ROOT_DIR)
+    data = read_json_file("D:"+Constanst.CONFIG_FILE)
     return data[DEVICE_ID]
 
 def get_element(name):
@@ -16,3 +24,10 @@ def read_json_file(path):
     with open(path, 'r') as file:
         data = json.load(file)
     return data
+
+
+def write_json_file(jsonStr, key, value, path):
+    jsonStr[key] = value
+
+    with open(path, "w") as outfile:
+        outfile.write(json.dumps(jsonStr))
