@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="990d154a-480c-4ecb-a9f9-64d26a224fec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/set_up_android_device.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../set_up_android_device/dockerfile" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hiYYGJCtFaoKbpxxN0kD5nwGeq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.JsonHandle.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.connection.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "test__game__m__go__nga",
+    "last_opened_file_path": "D:/keyword_python",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tool_test_game\pythonProject" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="990d154a-480c-4ecb-a9f9-64d26a224fec" name="Changes" comment="" />
+      <created>1718078411129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718078411129</updated>
+    </task>
+    <servers />
+  </component>
+</project>
