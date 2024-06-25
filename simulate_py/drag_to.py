@@ -9,7 +9,8 @@ if not cli_setup():
 
 from poco.drivers.unity3d import UnityPoco
 poco = UnityPoco()
-poco("wooden tray").child("LettersContainer").child("E").drag_to(poco("Wooden Table").child("LettersHolderContainer").child("E"))
+#poco("wooden tray").child("LettersContainer").child("i").click()
+poco("wooden tray").child("LettersContainer").child("I").drag_to(poco("Wooden Table").child("LettersHolderContainer").child("I"))
 
 
 
