@@ -5,7 +5,7 @@ from airtest.core.api import *
 from airtest.cli.parser import cli_setup
 
 if not cli_setup():
-    auto_setup(__file__, logdir=True, devices=["android://127.0.0.1:5037/7cbc1b6a?cap_method=ADBCAP&touch_method=MAXTOUCH&",])
+    auto_setup(__file__, logdir=True, devices=["android://127.0.0.1:5037/R9JRB0DTABT?cap_method=ADBCAP&touch_method=MAXTOUCH&",])
 
 from poco.drivers.unity3d import UnityPoco
 poco = UnityPoco()
