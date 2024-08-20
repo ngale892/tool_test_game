@@ -1,15 +1,1 @@
-[
-	{
-		"command":"start",
-		"topic_id":53,
-		"user_id":12101998,
-		"profile_id":"tesst"
-	},
-	{
-		"command":"reply",
-		"topic_id":53,
-		"question_id":166
-		"session_id":"b9d27a35ced14fb29c1b433e51d41421",
-		"user_answer":"My name is Trung"
-	}
-]
+[{"command":"start","topic_id":"133","user_id":12101998,"profile_id":"tesst"},{"command":"reply","topic_id":"133","question_id":166,"session_id":"b9d27a35ced14fb29c1b433e51d41421","user_answer":"My name is Trung"}]
